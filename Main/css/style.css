@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #f3c0c0;
+    margin:0;
+    padding:0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+section{
+    width:100%;
+    height: 95vh;
+    background-image:rgb(248, 84, 8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.5);
+    padding:0px 5%;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(76, 6, 189);
+    font-weight:700;
+    font-size: 15px;
+}
+
+.logo {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#fa0425;
+    font-size: 45px;
+}
+
+.active{
+    font-weight:bold;
+    color:darkmagenta;
+}
+.text-content p:nth-child(1) {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color:#4829fa;
+    font-size:26px;
+    text-shadow: 11px 3px 15px rgba(0,0,0,.5);
+
+}
+.text-content p:nth-child(2) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing:1.5px;
+    color:#4829fa;
+    font-size:30px;
+    text-shadow: 11px 3px 15px rgba(0,0,0,.5);
+}
+
+.text-content p:nth-child(3) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4829fa;
+    font-size:35px;
+    line-height:.5px;
+    text-shadow: 11px 3px 15px rgba(0,0,0,.5);
+    font-weight: bold;
+}
+
+.text-content p{
+    line-height:0px;
+    margin: 45px 0px 25px;
+}
+
+.text-content{
+    position:absolute;
+    left: 70%;
+    top:35%;
+    transform: translate(-70%,-35%);
+}
+
+.text-content button{
+    width:130px;
+    height:45px;
+    border-radius: 10px;
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline:none;
+    margin: 0px 10px; 
+}
+
+.hire-btn{
+    background-color: #0b0b0b;
+    color:#ffffff;
+    border:2px solid #fa0425;
+}
+
+.down-resume{
+    background-color: #0b0b0b;
+    color:#ffffff;
+    border:2px solid #fa0425;
+}
+button:active{
+    transform: scale(1.1);
+}
+.about-container{
+    width:90%;
+    height: auto;
+    background-color:#ffffff;
+    border: radius 20px;
+    box-shadow:3px 3px 15px rgba(0,0,0,.7);
+    display: flex;
+    margin:-7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me-content{
+    width:550px;
+}
+
+.about-me-content p:nth-child(1){
+    font-family:Myriad Pro;
+    color:#4829fa;
+    font-size:13px;
+}
+.about-me-content p:nth-child(2) {
+    font-family: Myriad Pro;
+    letter-spacing:1.5px;
+    color:#faec29;
+    font-size:13px;
+}
+
+.about-me-content button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #262525;
+    color:#ffffff;
+    border:2px solid #fa0425;
+    border-radius: 10px;
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 10px; 
+}
+ 
+button:active{
+    transform: scale(1.1);
+}
+/* .personal-image{
+    height: 1100px;
+    max-width: 100%;
+    max-height: 100%;
+    position:absolute;
+    bottom: 0px;
+    left:90%;
+    transform: translate(-90%);
+} */
