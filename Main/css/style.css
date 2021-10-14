@@ -33,11 +33,9 @@ nav{
     padding:0px 5%;
     
 }
-
 nav ul{
     display: flex;
 }
-
 nav ul li a{
     margin: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,13 +43,11 @@ nav ul li a{
     font-weight:700;
     font-size: 15px;
 }
-
 .logo {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#fa0425;
     font-size: 45px;
 }
-
 .active{
     font-weight:bold;
     color:darkmagenta;
@@ -72,7 +68,6 @@ nav ul li a{
     font-size:30px;
     text-shadow: 11px 3px 15px rgba(0,0,0,.5);
 }
-
 .text-content p:nth-child(3) {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #4829fa;
@@ -81,19 +76,16 @@ nav ul li a{
     text-shadow: 11px 3px 15px rgba(0,0,0,.5);
     font-weight: bold;
 }
-
 .text-content p{
     line-height:0px;
     margin: 45px 0px 25px;
 }
-
 .text-content{
     position:absolute;
     left: 70%;
     top:35%;
     transform: translate(-70%,-35%);
 }
-
 .text-content button{
     width:130px;
     height:45px;
@@ -104,13 +96,11 @@ nav ul li a{
     outline:none;
     margin: 0px 10px; 
 }
-
 .hire-btn{
     background-color: #0b0b0b;
     color:#ffffff;
     border:2px solid #fa0425;
 }
-
 .down-resume{
     background-color: #0b0b0b;
     color:#ffffff;
@@ -131,14 +121,12 @@ button:active{
     justify-content: space-evenly;
     align-items: center;
 }
-
 .about-me-content{
     width:550px;
 }
-
 .about-me-content p:nth-child(1){
     font-family:Myriad Pro;
-    color:#4829fa;
+    color:#000708;
     font-size:13px;
 }
 .about-me-content p:nth-child(2) {
@@ -147,7 +135,6 @@ button:active{
     color:#faec29;
     font-size:13px;
 }
-
 .about-me-content button{
     width: 120px;
     height: 40px;
@@ -161,9 +148,7 @@ button:active{
     font-weight:bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px 10px; 
-}
- 
-button:active{
+} button:active{
     transform: scale(1.1);
 }
 /* .personal-image{
