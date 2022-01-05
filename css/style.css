@@ -112,13 +112,13 @@ img{
 }
 
 .section__title{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size)
 }
 
 .section__subtitle{
     display: block;
-    font-size: var(--small-font-size);
-    margin-bottom: var(--mb-3);
+    font-size: var(--medium-font-size);
+    margin-bottom: var(--mb-1-5);
 }
 
 .section__title,
@@ -183,7 +183,7 @@ img{
         left: 15%;
         width: fit-content;
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 2rem .5rem 3.5rem;
         box-shadow: 0 -1px 4px rgba(0,0,0,.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
@@ -263,7 +263,7 @@ img{
 }
 
 .home__blob{
-    width: 330px;
+    width: 300px;
     fill: var(--first-color);
 }
 
@@ -406,7 +406,7 @@ img{
 }
 
 .skills__title{
-    font-size: var(--h3-font-size);
+    font-size: var(--big-font-size)
 }
 
 .skills__subtitle{
@@ -422,6 +422,7 @@ img{
 .skills__list{
     row-gap: 1.5rem;
     padding-left: 2.7rem;
+    padding-right: 1.25rem;
 }
 .skills__titles{
     display: flex;
@@ -473,15 +474,15 @@ img{
     width: 70%;
 }
 
-.skills__close .skills__list{
+/* .skills__close .skills__list{
     height: 0;
     overflow: hidden;
 }
-
+*/
 .skills__open .skills__list{
     height: max-content;
     margin-bottom: var(--mb-2-5);
-}
+} 
 
 .skills__open .skills__arrow{
     transform: rotate(180deg);
