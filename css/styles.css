@@ -426,6 +426,8 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
+  margin-left: 18rem;
+  margin-right: 7.5rem;
 }
 
 /*==================== SKILLS ====================*/
@@ -502,39 +504,39 @@ img {
 }
 
 .skills__js {
-  width: 60%;
-}
-
-.skills__react {
-  width: 85%;
-}
-
-.skills__php {
-  width: 80%;
-}
-
-.skills__node {
   width: 70%;
 }
 
+.skills__react {
+  width: 25%;
+}
+
+.skills__php {
+  width: 50%;
+}
+
+.skills__node {
+  width: 30%;
+}
+
 .skills__firebase {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__python {
-  width: 55%;
+  width: 25%;
 }
 
 .skills__figma {
-  width: 90%;
+  width: 75%;
 }
 
 .skills__sketch {
-  width: 85%;
+  width: 65%;
 }
 
 .skills__photoshop {
-  width: 85%;
+  width: 65%;
 }
 
 .skills__close .skills__list {
@@ -1057,7 +1059,7 @@ img {
     order: 1;
     justify-self: center;
   }
-  .about__container,
+
   .skills__container,
   .portfolio__content,
   .project__container,
